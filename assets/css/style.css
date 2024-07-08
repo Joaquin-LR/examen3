@@ -1,0 +1,71 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+    border-color: #55c1ec;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+}
+
+.converter-box {
+    background-color: #686868;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 25rem;
+    align-items: center;
+    padding: 20px;
+}
+
+input, select {
+    width: 230px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.convert-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #55c1ec;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 190px;
+    transition: background-color 0.3s;
+}
+
+.convert-btn:hover {
+    background-color: #2890ff;
+}
+
+#conversionResult {
+    margin-top: 30px;
+}
+
+.chart-box {
+    margin: 20px;
+    width: 600px;
+    height: 600px;
+}
+
+input.error {
+    border: 2px solid red;
+}
